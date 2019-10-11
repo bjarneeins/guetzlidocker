@@ -1,2 +1,27 @@
 # guetzlidocker
 Script for guetzli convertion in a docker container
+
+## Usage
+
+1. Make sure docker is installed.
+2. Be sure to make the script executable.
+
+```bash
+chmod +x guetzlidocker.sh
+```
+
+3. Run the script 
+
+The script can either work with the direct path to pictures or with a wildcard which references to several pictures
+
+- Method 1: 
+
+```bash
+bash guetzlidocker.sh /path/to/pictures/1234.jpg 
+```
+
+- Method 2:
+
+```bash
+bash guetzlidocker.sh /path/to/pictures/*
+```
