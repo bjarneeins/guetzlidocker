@@ -25,3 +25,6 @@ bash guetzlidocker.sh /path/to/pictures/1234.jpg
 ```bash
 bash guetzlidocker.sh /path/to/pictures/*
 ```
+
+## Information 
+By default the script is using a quality of 85 percent. This can be modified up to 100 percent in the last part of the docker run command in the script (--quality ..). 
