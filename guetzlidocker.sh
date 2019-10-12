@@ -12,5 +12,4 @@ do
 
     docker run --rm -it -v "$(pwd):/work" -w /work icedream/guetzli \
     --quality 85 $file $guetzlifile
-
 done
